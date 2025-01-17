@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://downmars.github.io/categories/</loc>
+    <loc>https://downmars.github.io/DHugo/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://downmars.github.io/zh/categories/"
+                href="https://downmars.github.io/DHugo/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://downmars.github.io/categories/"
+                href="https://downmars.github.io/DHugo/categories/"
                 />
   </url><url>
-    <loc>https://downmars.github.io/</loc>
+    <loc>https://downmars.github.io/DHugo/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://downmars.github.io/zh/"
+                href="https://downmars.github.io/DHugo/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://downmars.github.io/"
+                href="https://downmars.github.io/DHugo/"
                 />
   </url><url>
-    <loc>https://downmars.github.io/tags/</loc>
+    <loc>https://downmars.github.io/DHugo/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://downmars.github.io/zh/tags/"
+                href="https://downmars.github.io/DHugo/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://downmars.github.io/tags/"
+                href="https://downmars.github.io/DHugo/tags/"
                 />
   </url>
 </urlset>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Downmars&#39;s Blog</title>
-    <link>https://downmars.github.io/zh/</link>
+    <link>https://downmars.github.io/DHugo/zh/</link>
     <description>Recent content on Downmars&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <copyright>[©2025 Downmars&#39;s Blog](https://downmars.github.io/)</copyright>
-    <atom:link href="https://downmars.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>[©2025 Downmars&#39;s Blog](https://downmars.github.io/DHugo)</copyright>
+    <atom:link href="https://downmars.github.io/DHugo/zh/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
