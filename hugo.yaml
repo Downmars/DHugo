@@ -30,7 +30,7 @@ languages:
           weight: 20
         - identifier: resume
           name: Resume
-          url: /en/resume.pdf
+          url: /en/resume/
           weight: 30
         - identifier: blog
           name: Blog
