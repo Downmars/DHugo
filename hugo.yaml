@@ -1,0 +1,141 @@
+baseURL: "https://downmars.github.io/" # 主站的 URL
+title: Downmars's Blog # 站点标题
+copyright: "[©2024 Downmars's Blog](https://downmars.github.io/)" # 网站的版权声明，通常显示在页脚
+theme: PaperMod # 主题
+languageCode: en-us # 语言
+enableInlineShortcodes: true # shortcode，类似于模板变量，可以在写 markdown 的时候便捷地插入，官方文档中有一个视频讲的很通俗
+hasCJKLanguage: true # 是否有 CJK 的字符
+enableRobotsTXT: true # 允许生成 robots.txt
+buildDrafts: false # 构建时是否包括草稿
+buildFuture: false # 构建未来发布的内容
+buildExpired: false # 构建过期的内容
+enableEmoji: true # 允许 emoji
+pygmentsUseClasses: true
+defaultContentLanguage: en # 顶部首先展示的语言界面
+defaultContentLanguageInSubdir: false # 是否要在地址栏加上默认的语言代码
+languages:
+languages:
+  en:
+    languageName: English
+    languageCode: en
+    contentDir: content/English
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /en/about/
+          weight: 10
+        - identifier: project
+          name: Project
+          url: /en/project/
+          weight: 20
+        - identifier: resume
+          name: Resume
+          url: /en/resume.pdf
+          weight: 30
+        - identifier: blog
+          name: Blog
+          url: /en/blog/
+          weight: 40
+        - identifier: tags
+          name: 🕹️
+          url: /en/tags/
+          weight: 50
+        - identifier: search
+          name: Search
+          url: /en/search/
+          weight: 60
+    params:
+      profileMode:
+        enabled: true
+        title: Downmars
+        subtitle: WOW
+        imageUrl: 'img/accessible-icon.svg'
+        imageWidth: 150
+        imageHeight: 150
+        buttons:
+          - name: Project
+            url: /en/project/
+      socialIcons:
+        - name: github
+          url: 'https://github.com/Downmars'
+  zh:
+    languageName: 中文
+    languageCode: zh
+    contentDir: content/Chinese
+    menu:
+      main:
+        - identifier: about
+          name: 关于
+          url: /zh/about/
+          weight: 10
+        - identifier: log
+          name: 建站
+          url: /zh/log/
+          weight: 20
+        - identifier: blog
+          name: 博客
+          url: /zh/blog/
+          weight: 30
+        - identifier: links
+          name: 友链
+          url: /zh/links/
+          weight: 40
+        - identifier: tags
+          name: 🕹️
+          url: /zh/tags/
+          weight: 50
+        - identifier: search
+          name: 搜索
+          url: /zh/search/
+          weight: 60
+        - identifier: travellings
+          name: 开往
+          url: https://www.travellings.cn/go.html
+          weight: 70
+    params:
+      homeInfoParams:
+        enabled: true
+        Title: Downmars's Blog
+        Content: const desc = "Little squirrel Hopping around";
+        imageUrl: 'img/accessible-icon.svg'
+        imageWidth: 150
+        imageHeight: 150
+      socialIcons:
+        - name: github
+          url: 'https://github.com/Downmars'
+
+outputs:
+  home:
+    - HTML # 生成的静态页面
+    - RSS # 这个其实无所谓
+    - JSON # necessary for search, 这里的配置修改好之后，一定要重新生成一下
+
+params:
+  # 搜索
+  fuseOpts:
+      isCaseSensitive: false # 是否大小写敏感
+      shouldSort: true # 是否排序
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+      keys: ["title", "permalink", "summary", "content"]
+      includeMatches: true
+  giscus:
+    repo: "downmars/downmars.github.io"
+    repoId: "R_kgDONbFP4w"
+    category: "Announcements"
+    categoryId: "DIC_kwDONbFP484CmD59"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    lightTheme: "light"
+    darkTheme: "dark"
+    lang: "zh-CN"
+    crossorigin: "anonymous"
+
+
